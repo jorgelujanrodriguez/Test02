@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Escribe tu nombre" name="nombre"/>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="nombre" placeholder="Escribe tu apellido" name="apellido"/>
+        <br>
+        <label for="password">Contraseña;</label>
+        <input type="password" id="nombre" placeholder="Agregue una contraseña" name="password" required="true" 
+        pattern="[A-Za-z0-9]{5,10}" title="Letras y números. Tamaño mínimo:5. Tamaño máimo:10"/>
+
+        <br>
+        
+        <input type="submit" value="Guardar"/>
+    </form>
+</body>
+</html>
