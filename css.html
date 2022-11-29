@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link href="css/estilos.css"rel="stylesheet"></a>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Login</h2>
+        <form id="forma" name="forma" method="post">
+            <div class="elemento">
+                <label for="usuario">Usuario:</label> 
+                <input type="text"id="usuario"name="usuario" required="true"/>
+            </div>
+           <div class="elemento">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="nombre" placeholder="Agregue una contraseña" 
+            name="password" required="true" 
+            pattern="[A-Za-z0-9]{5,10}" title="Letras y números. Tamaño mínimo:5. Tamaño máimo:10"/>
+           </div>
+           <div class="elemento">
+            <input type="submit" value="Enviar">
+           </div>
+    </div>
+</body>
+</html>
